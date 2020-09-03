@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style8.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <button id="openModalBtn">Open Modal Window</button>
+
+    <form id="form">
+        <label for="name">Введите имя</label>
+        <input type="text" name="name">
+        <label for="gender">Men</label>
+        <input type="radio" name="gender" value="men">
+        <label for="gender">Wooman</label>
+        <input type="radio" name="gender" value="wooman">
+        <select name="obr">
+            <option value=""></option>
+            <option value="Высшее">Высшее</option>
+            <option value="Среднее">Среднее</option>
+            <option value="Базовое">Базовое</option>
+        </select>
+        <button type="submit" id="submit">Отправить</button>
+    </form>
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <button id="closeBtn">Close</button>
+            <div id="modelItems"></div>
+        </div>
+    </div>
+    <script src="index8.js"></script>
+</body>
+
+</html>
